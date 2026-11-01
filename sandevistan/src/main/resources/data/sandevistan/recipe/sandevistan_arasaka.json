@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "NEN",
+    "ECE",
+    "NEN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "sandevistan:sandevistan_military"
+    }
+  },
+  "result": {
+    "id": "sandevistan:sandevistan_arasaka",
+    "count": 1
+  }
+}

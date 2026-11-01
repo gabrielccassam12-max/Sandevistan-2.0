@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sandevistan",
+  "version": "${version}",
+  "name": "Cyberpunk: Sandevistan - The Edge of Time",
+  "description": "A cybernetic implant that slows the world around you: real time dilation, superhuman speed, combat and parkour skills, and the risk of cyberpsychosis.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.sandevistan.SandevistanMod"],
+    "client": ["com.sandevistan.client.SandevistanClient"]
+  },
+  "mixins": ["sandevistan.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

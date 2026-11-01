@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "com.sandevistan.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ServerWorldMixin"],
+  "client": ["ClientWorldMixin", "SoundSystemMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
